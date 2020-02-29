@@ -2,6 +2,11 @@
     display: none;
 }
 
+.image {
+    background-image: url("./unnamed.jpg");
+    background-size: cover;
+}
+
 .centering-div {
     display: flex;
     flex-direction: column;
