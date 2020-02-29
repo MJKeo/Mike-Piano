@@ -1,0 +1,68 @@
+.gone {
+    display: none;
+}
+
+.centering-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96vh;
+    width: 97vw;
+}
+
+.centering-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.piano {
+    width: 1050px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.white-key {
+    background: white;
+    border: solid;
+    width: 70px;
+}
+
+
+.white-key:hover {
+    background: lightgray;
+}
+
+.white-key:active {
+    background: darkgray;
+}
+
+.black-key {
+    background: black;
+    border: solid;
+    width: 60px;
+    margin-left: -30px;
+    margin-right: -31px;
+    height: 50%;
+    z-index: 2;
+}
+
+.black-key:hover {
+    background: #434344;
+}
+
+.black-key:active {
+    background: gray;
+}
+
+.white-selected {
+    background: darkgray;
+}
+
+.black-selected {
+    background: gray;
+}
