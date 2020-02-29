@@ -24,7 +24,7 @@
 }
 
 .piano {
-    width: 1050px;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@
 .white-key {
     background: white;
     border: solid;
-    width: 70px;
+    width: 6.66%;
 }
 
 
@@ -49,9 +49,9 @@
 .black-key {
     background: black;
     border: solid;
-    width: 60px;
-    margin-left: -30px;
-    margin-right: -31px;
+    width: 6%;
+    margin-left: -3%;
+    margin-right: -3.1%;
     height: 50%;
     z-index: 2;
 }
